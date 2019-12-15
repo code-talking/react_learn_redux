@@ -1,0 +1,13 @@
+step by step
+
+1. 创建一个reducer文件夹，
+    index.js文件放置抽象的reducer
+    每一个具体的reducer，拥有一个js文件
+
+2. 创建抽象的reducer，并把步骤1中所有的reducer都给combine起来
+    通过redux中的combineReducers来实现
+
+3. 创建一个全局store
+
+4. 把React和Redux连接起来
+    
