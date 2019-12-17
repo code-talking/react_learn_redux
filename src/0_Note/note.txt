@@ -1,0 +1,22 @@
+step by step
+
+1. 创建一个reducer文件夹，
+    index.js文件放置抽象的reducer
+    每一个具体的reducer，拥有一个js文件
+        比如filter.js, todos.js
+
+2. 抽象的reducer把每一个具体的reducer给combine起来
+    通过redux中的combineReducers来实现
+
+3. 创建一个全局store
+
+4. 把React和Redux连接起来
+    ref【http://tutorial.haochuan.io/part14/todolist-5.html】
+    连接位置：全局【App.js】
+    连接方式：connect函数
+    连接步骤
+        1. 根目录index.js文件，使用<Provider>容器，把root component包起来
+        2. 上述root component中，把default的state和dispatch传递给root component的props
+        3. 使用connnect函数，进行连接
+
+5. action creator
